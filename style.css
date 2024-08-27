@@ -1,0 +1,82 @@
+body {
+    
+    width:1444px ;
+    height: 1024px;
+    box-sizing: border-box;
+    background-color:#F3F5FC;
+    color: #0A3871;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    padding-top: 40px;
+    padding-left: 40px;
+    border: 1px black;
+}
+
+#caixa_texto{
+    height: 500px;
+}
+
+.container__input {width: 680px;
+    color: #0A3871;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color:#F3F5FC ;
+    font-size: 32px;
+    padding-left: 240px;
+    display:block;
+    padding-top: 88px;}
+
+
+.container {
+    display: block;
+    float: left;
+
+}
+
+.container__botoes {
+    display: block;
+    float: left;
+    padding-left: 40px;
+}
+
+#botao_crip {
+    background-color: #0A3871;
+    color: white;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+
+}   
+#botao_descrip {
+    background-color: #D8DFE8;
+    border-color:#0A3871;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+
+}
+
+#resultado {
+    background-color: white;
+    border-radius: 32px;
+    border-color: #F3F5FC;
+    height: 600px;
+    width: 400px;
+    margin-left: 40px;
+    padding: 40px;
+}
+
+.image{
+    padding-top: 40px;
+    margin: auto;
+    display: block;
+
+}
+.texto .texto_crip_descrip{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}

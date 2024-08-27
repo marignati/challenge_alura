@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador Mari </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+     <main>
+        <section>
+            <h1 class="logo"> <img src="logo_alura.png" alt="logo_alura"></h1>
+            <div class="container"> 
+                <textarea id="caixa_texto" type="text" class="container__input" placeholder="Digite seu texto"></textarea>
+                <div class="container__botoes">
+                    <button id="botao_crip" onclick="criptografar()"> Criptografar </button>
+                    <button id="botao_descrip" onclick="descriptografar()"> Descriptografar </button>
+                </div>
+            </div>
+        </section>
+        <div class="container" id="resultado">
+            <p id="texto_crip_descrip">
+                <img src="menina_lupa.jpg" alt="menina_lupa" class="image">
+                <p id="instrucoes" class="texto">
+                    <b class="texto">
+                        Nenhuma mensagem encontrada
+                    </b>
+                    <p class="texto">
+                        Digite um texto que você deseja criptografar ou descriptografar.
+                    </p>
+                </p>
+            </p>
+        </div>
+     </main>
+</header>
+<footer> Mariana Ignati </footer>
+
+
+
+
+</body>
+</html>
